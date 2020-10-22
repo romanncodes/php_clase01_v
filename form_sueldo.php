@@ -9,15 +9,20 @@
 
 <body>
     <a href="index.php">Home</a>
-    <h1>Formulario en PHP</h1>
+    <h1>Calculo de sueldo</h1>
 
-    <form action="controllers/controlador.php" method="POST">
-        <input type="text" name="nombre" placeholder="Tu Nombre">
-        <br>
-        <input type="text" name="edad" placeholder="Tu edad">
-        <br>
-        <button>Saludame</button>
+    <form action="controllers/ControlSueldo.php" method="POST">
+        <input type="text" name="sueldo" placeholder="Sueldo Base">
+        <br><br>
+        <select name="desc">
+            <option value="0.2">20%</option>
+            <option value="0.25">25%</option>
+            <option value="0.3">30%</option>
+        </select>
+        <br><br>
+        <button>calcular</button>
     </form>
+
     <p>
         <?php
         session_start();

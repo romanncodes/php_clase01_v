@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <a href="formulario.php">Formulario</a>
+    <a href="formulario.php">Formulario</a><br>
+    <a href="form_sueldo.php">Sueldos</a>
     <br>
     <h1>Clase #01 PHP</h1>
     <h2>Variables</h2>
